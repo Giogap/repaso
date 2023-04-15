@@ -10,5 +10,13 @@ body {
     height: 120px;
     line-height: 120px;
     text-align: center;
-    margin: 5px;
+    margin: 15px;
+}
+
+.flex-container {
+    display: flex;
+    border: 1px solid black;
+    /*flex-direction: column-reverse;*/
+    flex-wrap: wrap; /* acomoda en filas */
+    justify-content: space-between;
 }
